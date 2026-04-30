@@ -13,7 +13,6 @@ The root directory contains the main configuration for the environments, which c
 ├── outputs.tf           # Surfaces all module outputs
 ├── providers.tf         # AWS provider (ap-south-1)
 ├── terraform.tf         # Required providers & version
-├── terra-automate-key.pub
 ├── Remote-Backend/      # Remote backend configuration for state management
 │   ├── dynamo.tf        # DynamoDB table for state locking
 │   └── s3.tf            # S3 bucket for storing terraform.tfstate
