@@ -9,7 +9,7 @@ The root directory contains the main configuration for the environments, which c
 ```text
 .
 ├── main.tf              # Workspace config map + module calls
-├── variables.tf         # Root variables (AMI, instance type, key path)
+├── Variables.tf         # Root variables (AMI, instance type, key path)
 ├── outputs.tf           # Surfaces all module outputs
 ├── providers.tf         # AWS provider (ap-south-1)
 ├── terraform.tf         # Required providers & version
@@ -17,9 +17,9 @@ The root directory contains the main configuration for the environments, which c
 │   ├── dynamo.tf        # DynamoDB table for state locking
 │   └── s3.tf            # S3 bucket for storing terraform.tfstate
 └── Modules-AWS/
-    ├── ec2/             # Key pair, security group, EC2 instances
-    ├── s3/              # S3 buckets with public access block
-    └── dynamodb/        # DynamoDB tables (PAY_PER_REQUEST)
+    ├── Ec2_instance.tf/             # Key pair, security group, EC2 instances
+    ├── S3_bucket.tf/              # S3 buckets with public access block
+    └── Dynamo_table.tf/        # DynamoDB tables (PAY_PER_REQUEST)
 ```
 
 ### Key Files
