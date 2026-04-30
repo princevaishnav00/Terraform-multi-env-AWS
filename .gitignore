@@ -1,0 +1,9 @@
+/.terraform
+/Remote-Backend/terraform.tfstate
+/Remote-Backend/terraform.tfstate.backup
+/.terraform.lock.hcl
+/Terra_Key
+/Terra_Key.pub
+/.terraform/terraform.tfstate
+/.terraform/terraform.tfstate.backup
+/Remote-Backend/.terraform
